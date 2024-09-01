@@ -1,0 +1,197 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-02 01:35:42.902739",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "personal_information_section",
+  "lead_name",
+  "date_of_birth",
+  "nationality",
+  "column_break_srlg",
+  "gender",
+  "place_of_birth",
+  "personal_photo",
+  "lead_information_section",
+  "lead_type",
+  "column_break_cqxt",
+  "sourse",
+  "contact_information_section",
+  "email",
+  "address",
+  "governorate",
+  "column_break_khmz",
+  "phone_number",
+  "district",
+  "identification_details_section",
+  "id_type",
+  "id_issue_date",
+  "id_card_front_photo",
+  "column_break_wpsw",
+  "id_number",
+  "id_expiry_date",
+  "id_card_back_photo"
+ ],
+ "fields": [
+  {
+   "fieldname": "lead_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "id_number",
+   "fieldtype": "Data",
+   "label": "ID Number"
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "label": "Date of Birth"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "label": "Gender",
+   "options": "Male\nFemale"
+  },
+  {
+   "fieldname": "nationality",
+   "fieldtype": "Data",
+   "label": "Nationality"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "governorate",
+   "fieldtype": "Data",
+   "label": "Governorate"
+  },
+  {
+   "fieldname": "district",
+   "fieldtype": "Data",
+   "label": "District"
+  },
+  {
+   "fieldname": "place_of_birth",
+   "fieldtype": "Data",
+   "label": "Place of Birth"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "id_issue_date",
+   "fieldtype": "Date",
+   "label": "ID Issue Date"
+  },
+  {
+   "fieldname": "id_expiry_date",
+   "fieldtype": "Date",
+   "label": "ID Expiry Date"
+  },
+  {
+   "fieldname": "lead_type",
+   "fieldtype": "Select",
+   "label": "Lead Type",
+   "options": "Client\nSales Point"
+  },
+  {
+   "fieldname": "sourse",
+   "fieldtype": "Link",
+   "label": "Sourse",
+   "options": "Wallet Lead Source"
+  },
+  {
+   "fieldname": "id_type",
+   "fieldtype": "Data",
+   "label": "ID Type",
+   "options": "National ID\nPassport"
+  },
+  {
+   "fieldname": "personal_photo",
+   "fieldtype": "Attach Image",
+   "label": "Personal Photo"
+  },
+  {
+   "fieldname": "id_card_front_photo",
+   "fieldtype": "Attach Image",
+   "label": "ID Card Front Photo"
+  },
+  {
+   "fieldname": "id_card_back_photo",
+   "fieldtype": "Attach Image",
+   "label": "ID Card Back Photo"
+  },
+  {
+   "fieldname": "personal_information_section",
+   "fieldtype": "Section Break",
+   "label": "Personal Information"
+  },
+  {
+   "fieldname": "column_break_srlg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lead_information_section",
+   "fieldtype": "Section Break",
+   "label": "Lead Information"
+  },
+  {
+   "fieldname": "column_break_cqxt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_information_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "column_break_khmz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "identification_details_section",
+   "fieldtype": "Section Break",
+   "label": "Identification Details"
+  },
+  {
+   "fieldname": "column_break_wpsw",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-02 02:38:03.761023",
+ "modified_by": "Administrator",
+ "module": "Wallet CRM",
+ "name": "Wallet Lead",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
